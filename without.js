@@ -16,16 +16,16 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 let without = function(source, itemsToRemove) {
-  let result = source;
   for(let item of itemsToRemove) {
-    result = source.filter(e => e !== item);
+    source = source.filter(e => e !== item);
   }
-  return result;
+  return source;
 };
 
 // TEST CODE
 assertArraysEqual(without([1, 2, 3], [1]), [2, 3]);
 assertArraysEqual(without(["1", "2", "3"], [1, 2, "3"]), ["1", "2"]);
+assertArraysEqual(without(["1", "2", "3"], [1, "2", "3"]), ["1"]);
 assertArraysEqual(without([1, 2, 3], []), [1, 2, 3]);
 
 const words = ["hello", "world", "lighthouse"];
