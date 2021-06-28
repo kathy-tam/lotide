@@ -12,11 +12,11 @@ This project was created and published by me as part of my learnings at Lighthou
 
 **Install it:**
 
-`npm install @ktam/lotide`
+`npm install @ktam1/lotide`
 
 **Require it:**
 
-`const _ = require('@ktam/lotide');`
+`const _ = require('@ktam1/lotide');`
 
 **Call it:**
 

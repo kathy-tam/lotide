@@ -1,5 +1,5 @@
 {
-  "name": "@ktam/lotide",
+  "name": "@ktam1/lotide",
   "version": "1.0.0",
   "description": "Clone of some Lodash functions",
   "main": "assertArraysEqual.js",
