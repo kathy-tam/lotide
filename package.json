@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@ktam/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Clone of some Lodash functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/kathy-tam/lotide.git"
   },
-  "author": "",
+  "author": "Kathy Tam",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kathy-tam/lotide/issues"
